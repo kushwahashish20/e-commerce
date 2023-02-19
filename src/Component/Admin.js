@@ -19,6 +19,7 @@ const Admin = () => {
           axios.post(
                   "http:8000/admin/signin",request
                 );
+                console.log(":called")
     }
     return (
         <>
